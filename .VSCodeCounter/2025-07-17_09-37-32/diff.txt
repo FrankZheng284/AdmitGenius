@@ -1,0 +1,262 @@
+Date : 2025-07-17 09:37:32
+Directory : e:\AdmitGenius\frontend
+Total : 170 files,  6144 codes, -734 comments, -709 blanks, all 4701 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| vue                |         23 |      9,797 |         89 |      1,321 |     11,207 |
+| JSON               |          2 |      4,933 |          0 |          2 |      4,935 |
+| TypeScript         |         28 |      2,217 |        422 |        269 |      2,908 |
+| SCSS               |          1 |        119 |          9 |         22 |        150 |
+| JSON with Comments |          1 |         18 |          0 |          0 |         18 |
+| HTML               |          1 |         15 |          0 |          0 |         15 |
+| Java Properties    |          1 |         -3 |        -16 |         -1 |        -20 |
+| Batch              |          1 |       -108 |        -26 |        -16 |       -150 |
+| XML                |          2 |       -129 |          7 |         -6 |       -128 |
+| Shell Script       |          1 |       -185 |        -27 |        -37 |       -249 |
+| PlantUML           |          1 |       -851 |         -2 |        -78 |       -931 |
+| Markdown           |          6 |     -1,378 |          0 |       -354 |     -1,732 |
+| MS SQL             |          4 |     -1,470 |        -94 |       -154 |     -1,718 |
+| Java               |         98 |     -6,831 |     -1,096 |     -1,677 |     -9,604 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                        | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                           |        170 |      6,144 |       -734 |       -709 |      4,701 |
+| . (Files)                                                                                                   |          8 |      5,154 |         17 |          9 |      5,180 |
+| ..                                                                                                          |        113 |    -10,982 |     -1,262 |     -2,333 |    -14,577 |
+| ..\backend                                                                                                  |        113 |    -10,982 |     -1,262 |     -2,333 |    -14,577 |
+| ..\backend (Files)                                                                                          |          3 |       -449 |        -54 |        -69 |       -572 |
+| ..\backend\.mvn                                                                                             |          1 |         -3 |        -16 |         -1 |        -20 |
+| ..\backend\.mvn\wrapper                                                                                     |          1 |         -3 |        -16 |         -1 |        -20 |
+| ..\backend\docs                                                                                             |          7 |     -2,229 |         -2 |       -432 |     -2,663 |
+| ..\backend\sql                                                                                              |          4 |     -1,470 |        -94 |       -154 |     -1,718 |
+| ..\backend\src                                                                                              |         98 |     -6,831 |     -1,096 |     -1,677 |     -9,604 |
+| ..\backend\src\main                                                                                         |         97 |     -6,822 |     -1,096 |     -1,672 |     -9,590 |
+| ..\backend\src\main\java                                                                                    |         97 |     -6,822 |     -1,096 |     -1,672 |     -9,590 |
+| ..\backend\src\main\java\com                                                                                |         97 |     -6,822 |     -1,096 |     -1,672 |     -9,590 |
+| ..\backend\src\main\java\com\admitgenius                                                                    |         97 |     -6,822 |     -1,096 |     -1,672 |     -9,590 |
+| ..\backend\src\main\java\com\admitgenius (Files)                                                            |          1 |        -11 |          0 |         -4 |        -15 |
+| ..\backend\src\main\java\com\admitgenius\config                                                             |          3 |       -193 |        -15 |        -39 |       -247 |
+| ..\backend\src\main\java\com\admitgenius\controller                                                         |         15 |     -1,434 |       -326 |       -253 |     -2,013 |
+| ..\backend\src\main\java\com\admitgenius\dto                                                                |         17 |       -923 |        -57 |       -274 |     -1,254 |
+| ..\backend\src\main\java\com\admitgenius\exception                                                          |          5 |       -158 |         -1 |        -34 |       -193 |
+| ..\backend\src\main\java\com\admitgenius\model                                                              |         19 |     -1,074 |        -36 |       -344 |     -1,454 |
+| ..\backend\src\main\java\com\admitgenius\payload                                                            |          4 |       -179 |         -4 |        -51 |       -234 |
+| ..\backend\src\main\java\com\admitgenius\repository                                                         |         14 |       -256 |        -54 |        -99 |       -409 |
+| ..\backend\src\main\java\com\admitgenius\security                                                           |          6 |       -273 |        -17 |        -54 |       -344 |
+| ..\backend\src\main\java\com\admitgenius\service                                                            |         12 |     -2,266 |       -586 |       -512 |     -3,364 |
+| ..\backend\src\main\java\com\admitgenius\service (Files)                                                    |          9 |     -1,103 |       -457 |       -288 |     -1,848 |
+| ..\backend\src\main\java\com\admitgenius\service\impl                                                       |          3 |     -1,163 |       -129 |       -224 |     -1,516 |
+| ..\backend\src\main\java\com\admitgenius\util                                                               |          1 |        -55 |          0 |         -8 |        -63 |
+| ..\backend\src\test                                                                                         |          1 |         -9 |          0 |         -5 |        -14 |
+| ..\backend\src\test\java                                                                                    |          1 |         -9 |          0 |         -5 |        -14 |
+| ..\backend\src\test\java\org                                                                                |          1 |         -9 |          0 |         -5 |        -14 |
+| ..\backend\src\test\java\org\example                                                                        |          1 |         -9 |          0 |         -5 |        -14 |
+| ..\backend\src\test\java\org\example\admitgeniusbackend                                                     |          1 |         -9 |          0 |         -5 |        -14 |
+| src                                                                                                         |         49 |     11,972 |        511 |      1,615 |     14,098 |
+| src (Files)                                                                                                 |          4 |         72 |         41 |         19 |        132 |
+| src\api                                                                                                     |         10 |      1,089 |        272 |        160 |      1,521 |
+| src\api (Files)                                                                                             |          2 |        254 |         35 |         46 |        335 |
+| src\api\services                                                                                            |          8 |        835 |        237 |        114 |      1,186 |
+| src\assets                                                                                                  |          2 |        146 |         17 |         32 |        195 |
+| src\assets (Files)                                                                                          |          1 |         27 |          8 |         10 |         45 |
+| src\assets\styles                                                                                           |          1 |        119 |          9 |         22 |        150 |
+| src\config                                                                                                  |          1 |          6 |          0 |          0 |          6 |
+| src\layouts                                                                                                 |          2 |        428 |          5 |         64 |        497 |
+| src\router                                                                                                  |          2 |        198 |         24 |         15 |        237 |
+| src\stores                                                                                                  |          2 |        232 |         30 |         34 |        296 |
+| src\types                                                                                                   |          4 |        330 |         15 |         28 |        373 |
+| src\utils                                                                                                   |          2 |        124 |         23 |          9 |        156 |
+| src\views                                                                                                   |         20 |      9,347 |         84 |      1,254 |     10,685 |
+| src\views\auth                                                                                              |          4 |        924 |          3 |        129 |      1,056 |
+| src\views\dashboard                                                                                         |          1 |        416 |          5 |         69 |        490 |
+| src\views\error                                                                                             |          1 |         49 |          0 |          8 |         57 |
+| src\views\essay                                                                                             |          6 |      2,800 |          7 |        375 |      3,182 |
+| src\views\forum                                                                                             |          2 |      1,866 |         35 |        250 |      2,151 |
+| src\views\recommendation                                                                                    |          1 |        781 |          5 |        108 |        894 |
+| src\views\school                                                                                            |          2 |        983 |         11 |        143 |      1,137 |
+| src\views\test                                                                                              |          1 |         51 |          0 |         11 |         62 |
+| src\views\user                                                                                              |          2 |      1,477 |         18 |        161 |      1,656 |
++-------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                    | language           | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| e:\AdmitGenius\backend\.mvn\wrapper\maven-wrapper.properties                                                | Java Properties    |         -3 |        -16 |         -1 |        -20 |
+| e:\AdmitGenius\backend\deploy.sh                                                                            | Shell Script       |       -185 |        -27 |        -37 |       -249 |
+| e:\AdmitGenius\backend\docs\CONFIGURATION.md                                                                | Markdown           |       -108 |          0 |        -36 |       -144 |
+| e:\AdmitGenius\backend\docs\FEATURES.md                                                                     | Markdown           |       -212 |          0 |        -47 |       -259 |
+| e:\AdmitGenius\backend\docs\PROJECT_STRUCTURE.md                                                            | Markdown           |       -227 |          0 |        -43 |       -270 |
+| e:\AdmitGenius\backend\docs\README.md                                                                       | Markdown           |       -265 |          0 |        -94 |       -359 |
+| e:\AdmitGenius\backend\docs\TESTING_CHECKLIST.md                                                            | Markdown           |       -189 |          0 |        -47 |       -236 |
+| e:\AdmitGenius\backend\docs\class_diagram.puml                                                              | PlantUML           |       -851 |         -2 |        -78 |       -931 |
+| e:\AdmitGenius\backend\docs\doc.md                                                                          | Markdown           |       -377 |          0 |        -87 |       -464 |
+| e:\AdmitGenius\backend\mvnw.cmd                                                                             | Batch              |       -108 |        -26 |        -16 |       -150 |
+| e:\AdmitGenius\backend\pom.xml                                                                              | XML                |       -156 |         -1 |        -16 |       -173 |
+| e:\AdmitGenius\backend\sql\create_table.sql                                                                 | MS SQL             |     -1,074 |        -48 |       -105 |     -1,227 |
+| e:\AdmitGenius\backend\sql\forum_additional_data.sql                                                        | MS SQL             |        -81 |        -20 |        -24 |       -125 |
+| e:\AdmitGenius\backend\sql\update_schema.sql                                                                | MS SQL             |       -242 |        -24 |        -24 |       -290 |
+| e:\AdmitGenius\backend\sql\update_school_images.sql                                                         | MS SQL             |        -73 |         -2 |         -1 |        -76 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\AdmitGeniusBackEndApplication.java                     | Java               |        -11 |          0 |         -4 |        -15 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\config\DataInitializer.java                            | Java               |       -137 |        -15 |        -31 |       -183 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\config\OpenAIConfig.java                               | Java               |        -21 |          0 |         -4 |        -25 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\config\WebConfig.java                                  | Java               |        -35 |          0 |         -4 |        -39 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\controller\AdminController.java                        | Java               |       -121 |        -67 |        -25 |       -213 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\controller\AuthController.java                         | Java               |       -122 |         -9 |        -30 |       -161 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\controller\EducationController.java                    | Java               |       -113 |        -13 |        -13 |       -139 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\controller\EssayController.java                        | Java               |        -44 |        -20 |         -8 |        -72 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\controller\EssayGenerationController.java              | Java               |        -18 |         -9 |         -5 |        -32 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\controller\EssayPolishController.java                  | Java               |        -31 |        -28 |         -7 |        -66 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\controller\FileController.java                         | Java               |        -74 |         -5 |        -14 |        -93 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\controller\ForumController.java                        | Java               |       -294 |        -22 |        -49 |       -365 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\controller\InternalAdminController.java                | Java               |        -23 |         -8 |         -4 |        -35 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\controller\ProjectController.java                      | Java               |       -113 |        -13 |        -13 |       -139 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\controller\RecommendationController.java               | Java               |        -99 |        -89 |        -18 |       -206 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\controller\SchoolManagementController.java             | Java               |        -83 |         -7 |        -17 |       -107 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\controller\StatisticsController.java                   | Java               |        -25 |         -3 |         -7 |        -35 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\controller\SystemController.java                       | Java               |        -65 |        -19 |        -14 |        -98 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\controller\UserController.java                         | Java               |       -209 |        -14 |        -29 |       -252 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\AdminResetPasswordRequestDTO.java                  | Java               |        -10 |          0 |         -2 |        -12 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\ApiResponse.java                                   | Java               |        -24 |          0 |         -6 |        -30 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\CommentDTO.java                                    | Java               |        -17 |          0 |         -2 |        -19 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\CreateAdminRequestDTO.java                         | Java               |        -14 |          0 |         -4 |        -18 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\EducationDTO.java                                  | Java               |        -25 |          0 |         -8 |        -33 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\EssayDTO.java                                      | Java               |        -23 |         -8 |        -13 |        -44 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\EssayGenerationDTO.java                            | Java               |        -58 |        -13 |        -14 |        -85 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\EssayPolishDTO.java                                | Java               |        -90 |         -9 |        -30 |       -129 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\ForumCommentDTO.java                               | Java               |        -15 |         -1 |         -3 |        -19 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\ForumPostDTO.java                                  | Java               |        -26 |         -1 |         -3 |        -30 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\ProjectDTO.java                                    | Java               |        -22 |          0 |         -7 |        -29 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\RecommendationRequestDTO.java                      | Java               |       -249 |        -12 |        -84 |       -345 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\RecommendationResponseDTO.java                     | Java               |       -162 |         -4 |        -47 |       -213 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\SchoolDTO.java                                     | Java               |       -139 |         -8 |        -44 |       -191 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\SchoolProgramDTO.java                              | Java               |        -17 |          0 |         -2 |        -19 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\UpdateUserRoleRequestDTO.java                      | Java               |         -8 |          0 |         -2 |        -10 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\dto\UserDTO.java                                       | Java               |        -24 |         -1 |         -3 |        -28 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\exception\BadRequestException.java                     | Java               |         -6 |          0 |         -1 |         -7 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\exception\GlobalExceptionHandler.java                  | Java               |       -125 |         -1 |        -26 |       -152 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\exception\ResourceNotFoundException.java               | Java               |         -9 |          0 |         -3 |        -12 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\exception\UnauthorizedAccessException.java             | Java               |         -9 |          0 |         -2 |        -11 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\exception\UnauthorizedException.java                   | Java               |         -9 |          0 |         -2 |        -11 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\ApplicationStatistic.java                        | Java               |        -42 |         -1 |        -16 |        -59 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\Comment.java                                     | Java               |        -22 |          0 |         -7 |        -29 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\Document.java                                    | Java               |        -31 |          0 |        -12 |        -43 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\Education.java                                   | Java               |        -39 |          0 |        -13 |        -52 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\Essay.java                                       | Java               |       -114 |         -8 |        -42 |       -164 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\EssayRequirement.java                            | Java               |        -23 |          0 |         -8 |        -31 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\ExpertReview.java                                | Java               |        -51 |         -6 |        -18 |        -75 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\ForumComment.java                                | Java               |        -30 |          0 |         -9 |        -39 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\ForumPost.java                                   | Java               |        -49 |         -1 |        -17 |        -67 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\PostLike.java                                    | Java               |        -27 |          0 |         -7 |        -34 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\Project.java                                     | Java               |        -37 |          0 |        -12 |        -49 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\Recommendation.java                              | Java               |        -89 |         -2 |        -28 |       -119 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\RecommendationItem.java                          | Java               |        -88 |         -3 |        -31 |       -122 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\School.java                                      | Java               |       -179 |         -5 |        -63 |       -247 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\SchoolProgram.java                               | Java               |       -104 |          0 |        -35 |       -139 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\User.java                                        | Java               |       -135 |         -4 |        -23 |       -162 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\UserEducation.java                               | Java               |          0 |          0 |         -1 |         -1 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\UserRole.java                                    | Java               |         -7 |         -3 |         -1 |        -11 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\model\UserStatus.java                                  | Java               |         -7 |         -3 |         -1 |        -11 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\payload\ApiResponse.java                               | Java               |        -33 |         -1 |         -9 |        -43 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\payload\JwtAuthenticationResponse.java                 | Java               |        -35 |         -1 |        -11 |        -47 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\payload\LoginRequest.java                              | Java               |        -22 |         -1 |         -7 |        -30 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\payload\SignUpRequest.java                             | Java               |        -89 |         -1 |        -24 |       -114 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\repository\ApplicationStatisticRepository.java         | Java               |        -12 |          0 |         -5 |        -17 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\repository\CommentRepository.java                      | Java               |        -25 |         -1 |         -9 |        -35 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\repository\EducationRepository.java                    | Java               |        -11 |         -9 |         -6 |        -26 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\repository\EssayRepository.java                        | Java               |        -15 |          0 |         -6 |        -21 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\repository\ForumCommentRepository.java                 | Java               |        -12 |          0 |         -3 |        -15 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\repository\ForumPostRepository.java                    | Java               |        -31 |         -2 |        -13 |        -46 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\repository\ForumRepository.java                        | Java               |        -41 |         -1 |        -15 |        -57 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\repository\PostLikeRepository.java                     | Java               |        -16 |         -2 |         -6 |        -24 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\repository\ProjectRepository.java                      | Java               |        -11 |         -9 |         -6 |        -26 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\repository\RecommendationItemRepository.java           | Java               |        -11 |          0 |         -4 |        -15 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\repository\RecommendationRepository.java               | Java               |        -10 |          0 |         -3 |        -13 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\repository\SchoolProgramRepository.java                | Java               |        -17 |          0 |         -7 |        -24 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\repository\SchoolRepository.java                       | Java               |        -34 |        -30 |        -13 |        -77 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\repository\UserRepository.java                         | Java               |        -10 |          0 |         -3 |        -13 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\security\CurrentUser.java                              | Java               |         -9 |          0 |         -2 |        -11 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\security\JwtAuthenticationEntryPoint.java              | Java               |        -21 |         -1 |         -5 |        -27 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\security\JwtAuthenticationFilter.java                  | Java               |        -50 |          0 |        -12 |        -62 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\security\JwtTokenProvider.java                         | Java               |        -70 |         -4 |        -13 |        -87 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\security\SecurityConfig.java                           | Java               |        -91 |        -11 |        -15 |       -117 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\security\UserDetailsServiceImpl.java                   | Java               |        -32 |         -1 |         -7 |        -40 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\service\EducationService.java                          | Java               |        -78 |        -19 |        -19 |       -116 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\service\EssayGenerationService.java                    | Java               |       -169 |        -21 |        -41 |       -231 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\service\EssayPolishService.java                        | Java               |       -199 |        -45 |        -60 |       -304 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\service\EssayService.java                              | Java               |       -189 |        -23 |        -33 |       -245 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\service\ForumService.java                              | Java               |        -26 |       -102 |        -18 |       -146 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\service\ProjectService.java                            | Java               |        -75 |        -19 |        -19 |       -113 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\service\RecommendationService.java                     | Java               |        -20 |        -68 |        -13 |       -101 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\service\SchoolService.java                             | Java               |        -16 |        -61 |        -12 |        -89 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\service\UserService.java                               | Java               |       -331 |        -99 |        -73 |       -503 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\service\impl\ForumServiceImpl.java                     | Java               |       -420 |        -32 |        -90 |       -542 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\service\impl\RecommendationServiceImpl.java            | Java               |       -503 |        -80 |       -104 |       -687 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\service\impl\SchoolServiceImpl.java                    | Java               |       -240 |        -17 |        -30 |       -287 |
+| e:\AdmitGenius\backend\src\main\java\com\admitgenius\util\AuthUtil.java                                     | Java               |        -55 |          0 |         -8 |        -63 |
+| e:\AdmitGenius\backend\src\test\java\org\example\admitgeniusbackend\AdmitGeniusBackEndApplicationTests.java | Java               |         -9 |          0 |         -5 |        -14 |
+| e:\AdmitGenius\frontend\auto-imports.d.ts                                                                   | TypeScript         |         80 |          7 |          1 |         88 |
+| e:\AdmitGenius\frontend\components.d.ts                                                                     | TypeScript         |         66 |          5 |          2 |         73 |
+| e:\AdmitGenius\frontend\env.d.ts                                                                            | TypeScript         |         11 |          4 |          3 |         18 |
+| e:\AdmitGenius\frontend\index.html                                                                          | HTML               |         15 |          0 |          0 |         15 |
+| e:\AdmitGenius\frontend\package-lock.json                                                                   | JSON               |      4,895 |          0 |          1 |      4,896 |
+| e:\AdmitGenius\frontend\package.json                                                                        | JSON               |         38 |          0 |          1 |         39 |
+| e:\AdmitGenius\frontend\src\App.vue                                                                         | vue                |         22 |          0 |          3 |         25 |
+| e:\AdmitGenius\frontend\src\api\index.ts                                                                    | TypeScript         |        103 |         14 |         18 |        135 |
+| e:\AdmitGenius\frontend\src\api\mockService.ts                                                              | TypeScript         |        151 |         21 |         28 |        200 |
+| e:\AdmitGenius\frontend\src\api\services\auth.ts                                                            | TypeScript         |         13 |         12 |          3 |         28 |
+| e:\AdmitGenius\frontend\src\api\services\essay.ts                                                           | TypeScript         |        148 |         19 |         15 |        182 |
+| e:\AdmitGenius\frontend\src\api\services\forum.ts                                                           | TypeScript         |        330 |         87 |         50 |        467 |
+| e:\AdmitGenius\frontend\src\api\services\mock.ts                                                            | TypeScript         |        149 |         22 |          6 |        177 |
+| e:\AdmitGenius\frontend\src\api\services\profile.ts                                                         | TypeScript         |         45 |          2 |         10 |         57 |
+| e:\AdmitGenius\frontend\src\api\services\recommendation.ts                                                  | TypeScript         |         91 |         50 |         14 |        155 |
+| e:\AdmitGenius\frontend\src\api\services\statistics.ts                                                      | TypeScript         |         11 |         18 |          6 |         35 |
+| e:\AdmitGenius\frontend\src\api\services\user.ts                                                            | TypeScript         |         48 |         27 |         10 |         85 |
+| e:\AdmitGenius\frontend\src\assets\dashboard-hero.svg                                                       | XML                |         27 |          8 |         10 |         45 |
+| e:\AdmitGenius\frontend\src\assets\styles\main.scss                                                         | SCSS               |        119 |          9 |         22 |        150 |
+| e:\AdmitGenius\frontend\src\config.ts                                                                       | TypeScript         |         14 |         35 |          6 |         55 |
+| e:\AdmitGenius\frontend\src\config\index.ts                                                                 | TypeScript         |          6 |          0 |          0 |          6 |
+| e:\AdmitGenius\frontend\src\env.d.ts                                                                        | TypeScript         |         11 |          3 |          3 |         17 |
+| e:\AdmitGenius\frontend\src\layouts\AuthLayout.vue                                                          | vue                |        161 |          0 |         22 |        183 |
+| e:\AdmitGenius\frontend\src\layouts\MainLayout.vue                                                          | vue                |        267 |          5 |         42 |        314 |
+| e:\AdmitGenius\frontend\src\main.ts                                                                         | TypeScript         |         25 |          3 |          7 |         35 |
+| e:\AdmitGenius\frontend\src\router\guards.ts                                                                | TypeScript         |         47 |         20 |         10 |         77 |
+| e:\AdmitGenius\frontend\src\router\index.ts                                                                 | TypeScript         |        151 |          4 |          5 |        160 |
+| e:\AdmitGenius\frontend\src\stores\auth.ts                                                                  | TypeScript         |        130 |         12 |         15 |        157 |
+| e:\AdmitGenius\frontend\src\stores\mockAuth.ts                                                              | TypeScript         |        102 |         18 |         19 |        139 |
+| e:\AdmitGenius\frontend\src\types\api.ts                                                                    | TypeScript         |          5 |          0 |          0 |          5 |
+| e:\AdmitGenius\frontend\src\types\essay.ts                                                                  | TypeScript         |         91 |          0 |          3 |         94 |
+| e:\AdmitGenius\frontend\src\types\index.ts                                                                  | TypeScript         |        218 |         15 |         25 |        258 |
+| e:\AdmitGenius\frontend\src\types\user.ts                                                                   | TypeScript         |         16 |          0 |          0 |         16 |
+| e:\AdmitGenius\frontend\src\utils\api.ts                                                                    | TypeScript         |         57 |          4 |          4 |         65 |
+| e:\AdmitGenius\frontend\src\utils\request.ts                                                                | TypeScript         |         67 |         19 |          5 |         91 |
+| e:\AdmitGenius\frontend\src\views\auth\ExpertRegisterView.vue                                               | vue                |        329 |          3 |         41 |        373 |
+| e:\AdmitGenius\frontend\src\views\auth\LoginView.vue                                                        | vue                |        196 |          0 |         31 |        227 |
+| e:\AdmitGenius\frontend\src\views\auth\RegisterView.vue                                                     | vue                |        270 |          0 |         36 |        306 |
+| e:\AdmitGenius\frontend\src\views\auth\ResetPasswordView.vue                                                | vue                |        129 |          0 |         21 |        150 |
+| e:\AdmitGenius\frontend\src\views\dashboard\DashboardView.vue                                               | vue                |        416 |          5 |         69 |        490 |
+| e:\AdmitGenius\frontend\src\views\error\NotFoundView.vue                                                    | vue                |         49 |          0 |          8 |         57 |
+| e:\AdmitGenius\frontend\src\views\essay\EssayCreateView.vue                                                 | vue                |        474 |          0 |         60 |        534 |
+| e:\AdmitGenius\frontend\src\views\essay\EssayDetailView.vue                                                 | vue                |        711 |          4 |         96 |        811 |
+| e:\AdmitGenius\frontend\src\views\essay\EssayEditView.vue                                                   | vue                |        492 |          1 |         62 |        555 |
+| e:\AdmitGenius\frontend\src\views\essay\EssayListView.vue                                                   | vue                |        316 |          2 |         39 |        357 |
+| e:\AdmitGenius\frontend\src\views\essay\EssayPolishView.vue                                                 | vue                |        453 |          0 |         61 |        514 |
+| e:\AdmitGenius\frontend\src\views\essay\EssayView.vue                                                       | vue                |        354 |          0 |         57 |        411 |
+| e:\AdmitGenius\frontend\src\views\forum\ForumPostView.vue                                                   | vue                |        907 |         23 |        121 |      1,051 |
+| e:\AdmitGenius\frontend\src\views\forum\ForumView.vue                                                       | vue                |        959 |         12 |        129 |      1,100 |
+| e:\AdmitGenius\frontend\src\views\recommendation\RecommendationView.vue                                     | vue                |        781 |          5 |        108 |        894 |
+| e:\AdmitGenius\frontend\src\views\school\SchoolDetailView.vue                                               | vue                |        539 |          9 |         74 |        622 |
+| e:\AdmitGenius\frontend\src\views\school\SchoolListView.vue                                                 | vue                |        444 |          2 |         69 |        515 |
+| e:\AdmitGenius\frontend\src\views\test\TestView.vue                                                         | vue                |         51 |          0 |         11 |         62 |
+| e:\AdmitGenius\frontend\src\views\user\ProfileView.vue                                                      | vue                |        899 |         10 |         90 |        999 |
+| e:\AdmitGenius\frontend\src\views\user\UserProfileView.vue                                                  | vue                |        578 |          8 |         71 |        657 |
+| e:\AdmitGenius\frontend\tsconfig.json                                                                       | JSON with Comments |         18 |          0 |          0 |         18 |
+| e:\AdmitGenius\frontend\vite.config.ts                                                                      | TypeScript         |         31 |          1 |          1 |         33 |
+| Total                                                                                                       |                    |      6,144 |       -734 |       -709 |      4,701 |
++-------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
