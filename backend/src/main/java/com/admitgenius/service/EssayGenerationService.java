@@ -34,7 +34,7 @@ public class EssayGenerationService {
 
     private String openaiApiKey;
     private String openaiApiUrl;
-    private String openaiModel = "gpt-4-turbo";
+    private String openaiModel = "moonshot-v1-32k"; // Kimi API 模型
     
     /**
      * 根据用户提交的信息自动生成文书

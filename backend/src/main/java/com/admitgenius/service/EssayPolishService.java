@@ -33,7 +33,7 @@ public class EssayPolishService {
 
     private String openaiApiKey;       // 从配置类获取
     private String openaiApiUrl;       // 从配置类获取 + 端点路径
-    private String openaiModel = "gpt-4-turbo";
+    private String openaiModel = "moonshot-v1-32k"; // Kimi API 模型
 
     
     /**
@@ -161,6 +161,13 @@ public class EssayPolishService {
         try {
             openaiApiKey = openaiConfig.getApi().getKey();
             openaiApiUrl = openaiConfig.getApi().getProxyUrl() + "/chat/completions";
+            
+            // 调试输出
+            System.out.println("========== OpenAI/Kimi API 调试信息 ==========");
+            System.out.println("API Key: " + (openaiApiKey != null ? openaiApiKey.substring(0, Math.min(15, openaiApiKey.length())) + "..." : "NULL"));
+            System.out.println("API URL: " + openaiApiUrl);
+            System.out.println("Model: " + openaiModel);
+            System.out.println("==============================================");
             
             if (openaiApiKey == null || openaiApiKey.trim().isEmpty()) {
                 throw new RuntimeException("OpenAI API密钥未配置");
