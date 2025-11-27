@@ -80,15 +80,8 @@ app.jwt.secret=你的JWT密钥（建议使用 32 位以上随机字符串，可�
 
 如果你有自己申请的 Kimi AI 或 OpenAI 的 API Key，通过环境变量注入，避免把密钥写入仓库。
 
-项目支持通过环境变量 `OPENAI_API_KEY` 和 `OPENAI_API_PROXY_URL` 注入密钥与代理地址。示例配置（仅供参考，不要将带有密钥的文件提交到仓库）：
 
-```properties
-# 建议使用环境变量：openai.api.key=${OPENAI_API_KEY:}
-# openai.api.proxyUrl=${OPENAI_API_PROXY_URL:https://api.moonshot.cn/v1}
-# openai.proxy.url=${OPENAI_API_PROXY_URL:https://api.moonshot.cn/v1}
-```
-
-本地（PowerShell）临时设置（只在当前终端会话有效）：
+推荐使用：本地（PowerShell）临时设置（只在当前终端会话有效）：
 
 ```powershell
 $env:OPENAI_API_KEY = 'sk-你的-kimi-或-openai-key'
@@ -97,14 +90,14 @@ cd backend
 .\mvnw.cmd spring-boot:run
 ```
 
-PowerShell 永久设置（跨会话，需重启终端或重新登录）：
+其他可用方式：（1）PowerShell 永久设置（跨会话，需重启终端或重新登录）：
 
 ```powershell
 setx OPENAI_API_KEY "sk-你的-kimi-或-openai-key"
 setx OPENAI_API_PROXY_URL "https://api.moonshot.cn/v1"
 ```
 
-Linux / macOS（bash / zsh）示例：
+（2）Linux / macOS（bash / zsh）示例：
 
 ```bash
 export OPENAI_API_KEY='sk-你的-kimi-或-openai-key'
