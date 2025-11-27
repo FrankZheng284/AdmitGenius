@@ -32,11 +32,7 @@ build/
 ### VS Code ###
 .vscode/
 
-# Application specific properties - 敏感配置文件
-/src/main/resources/application.properties
-/src/main/resources/application-dev.properties
-/src/main/resources/application-local.properties
-/src/main/resources/openai.properties
+# 注意：资源配置文件（例如 application.properties）保留在仓库中，方便下载完整项目。
 
 # 环境变量文件
 .env
