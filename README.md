@@ -90,14 +90,9 @@ cd backend
 .\mvnw.cmd spring-boot:run
 ```
 
-其他可用方式：（1）PowerShell 永久设置（跨会话，需重启终端或重新登录）：
+其他可用方式：
 
-```powershell
-setx OPENAI_API_KEY "sk-你的-kimi-或-openai-key"
-setx OPENAI_API_PROXY_URL "https://api.moonshot.cn/v1"
-```
-
-（2）Linux / macOS（bash / zsh）示例：
+Linux / macOS（bash / zsh）示例：
 
 ```bash
 export OPENAI_API_KEY='sk-你的-kimi-或-openai-key'
